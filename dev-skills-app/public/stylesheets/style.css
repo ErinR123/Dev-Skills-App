@@ -1,18 +1,25 @@
 body {
-  padding: 50px;
+  padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: pink;
-  
+  margin: 0;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
 
-h1 {
+.banner {
   background-color: darkblue;
   border-top: 10px solid;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
+}
 
+ul {
+  display: flex;
+  gap: 90px;
+  font-size: 17px;
+  justify-content: center;
+  margin-right: 50px;
 }

@@ -1,10 +1,12 @@
 <%- include("../partials/header") %>
 
-  <body>
+<body>
+  <div class="banner">
     <h1>Dev Skills</h1>
     <ul>
       <% devskills.forEach(function(skill) { %>
-        <li><a href="/dev-skills/<%= skill.id %>"><%= skill.devskill %></a></li>
-        <% }); %>
+      <li><a href="/dev-skills/<%= skill.id %>"><%= skill.devskill %></a></li>
+      <% }); %>
     </ul>
-  </body>
+  </div>
+</body>
