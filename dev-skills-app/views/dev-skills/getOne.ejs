@@ -7,4 +7,8 @@
   <p>Complete: <%= devskill.done ? 'Yes' : 'No' %></p>
 
   <a href="<%= devskill.doclink %>">Learn More</a>
+
+  <form method="POST" action="/dev-skills?_method=DELETE" autocomplete="off">
+    <button type="submit">Delete Skill</button>
+  </form>
 </body>
